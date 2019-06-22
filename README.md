@@ -21,4 +21,5 @@
 ## 安装方法
 
 1. 复制所有代码->点击油猴脚本标识->添加新脚本->ctrl+s保存
-2. GreasyMonkey安装：等待上传。。。
+2. GreasyMonkey安装：<https://greasyfork.org/zh-CN/scripts/386679-leetcode-answer-helper>
+
