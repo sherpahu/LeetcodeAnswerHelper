@@ -10,7 +10,7 @@
 
 2. py：python题解，利用Github上的高赞项目lc_all_solutions，解答质量很不错，特地搬运过来。  
 
-3. java：java题解，利用https://www.cnblogs.com/grandyang/p/4606334.html中的解析。  
+3. java：java题解，利用https://www.cnblogs.com/grandyang/p/4606334.html 中的解析。  
 
 4. 搜索：有的时候看了解析还是可能不太明白，可以用谷歌查询网络上博客中的更详细的解析。  
 
