@@ -100,7 +100,7 @@
         $('body').append($btn);
     }
 
-    //get readme.md
+    //get solution
     (function () {
         var $ = $ || window.$;
         var window_url = window.location.href;
@@ -129,18 +129,23 @@
         if(id in leetcodeId2Url){ //有此题就显示
             list.push({url:leetcodeId2Url[id],value:'grandyang'})
         }
-        //在水中的鱼博客中进行搜索
+        /*//在水中的鱼博客中进行搜索
         var searchName = problemName.replace(/-/g, encodeURIComponent('+'));
         var searchUrl ="https://fisherlei.blogspot.com/search?q=";
         searchUrl =searchUrl+searchName
-        list.push({url:searchUrl,value:'水中的鱼'})
+        list.push({url:searchUrl,value:'水中的鱼'})*/
+        //花花酱站内搜索题目名称
+        var searchName = problemName.replace(/-/g, encodeURIComponent(' '));
+        var searchUrl = "https://space.bilibili.com/9880352/video?keyword=";
+        searchUrl = searchUrl+searchName;
+	    list.push({url:searchUrl,value:'搜索花花酱'})
         //利用谷歌搜索题目名称
+        searchName = problemName.replace(/-/g, encodeURIComponent(' '));
         searchUrl = "https://www.google.com/search?q=";
         searchUrl = searchUrl+searchName+encodeURIComponent(" leetcode");
 	    list.push({url:searchUrl,value:'谷歌搜索'})
         //百度搜索https://www.baidu.com/s?wd=%s
         searchUrl = "https://www.baidu.com/s?ie={inputEncoding}&wd=";
-        searchName = problemName.replace(/-/g, encodeURIComponent(' '));
         searchUrl = searchUrl+searchName+encodeURIComponent(" leetcode");
 	    list.push({url:searchUrl,value:'百度搜索'})
         //切换语言，英语到汉语或汉语到英语
