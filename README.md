@@ -52,3 +52,4 @@ grandyang：<https://www.cnblogs.com/grandyang/p/4606334.html>
 水中的鱼、百度搜索恢复方法：油猴脚本标识->管理面板->leetcode题解助手->//get solution下将对应代码取消注释。
 
 自动折叠方法：油猴脚本标识->管理面板->leetcode题解助手->把`function createDom()`中的`$listDom.slideDown('fast');`改为`$listDom.slideUp('fast');`
+
