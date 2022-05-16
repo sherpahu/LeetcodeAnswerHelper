@@ -5,7 +5,7 @@
 // @description  查找leetcode题解（本脚本支持在九章算法的题解搜索，提供Github上开源的python题解的一键查询按钮，可以直接在谷歌搜索题目名称，还能切换语言）
 // @author       sherpahu
 // @icon 		 https://assets.leetcode.com/static_assets/public/webpack_bundles/images/logo-dark.e99485d9b.svg
-// @include      *://leetcode-cn.com/problems/*
+// @include      *://leetcode.cn/problems/*
 // @include      *://leetcode.com/problems/*
 /************************************/
 // @connect 	 jiuzhang.com
@@ -151,7 +151,7 @@
         //切换语言，英语到汉语或汉语到英语
         var changedUrl;
 	    if(window_url.indexOf("leetcode.com/problem") != -1){
-            changedUrl = "https://leetcode-cn.com/problems/"+problemName;
+            changedUrl = "https://leetcode.cn/problems/"+problemName;
         } else {
             changedUrl = "https://leetcode.com/problems/"+problemName;
         }

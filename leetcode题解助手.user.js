@@ -5,7 +5,7 @@
 // @description  查找leetcode题解，题解栏可折叠。提供九章算法、python题解、grandyang题解（主要是c++和java）、花花酱博主的快速查询，并且提供直接在谷歌上搜索题目、切换中英文的功能。
 // @author       sherpahu
 // @icon 		 https://assets.leetcode.com/static_assets/public/webpack_bundles/images/logo-dark.e99485d9b.svg
-// @include      *://leetcode-cn.com/problems/*
+// @include      *://leetcode.cn/problems/*
 // @include      *://leetcode.com/problems/*
 /************************************/
 // @connect 	 jiuzhang.com
@@ -151,7 +151,7 @@
         //切换语言，英语到汉语或汉语到英语
         var changedUrl;
 	    if(window_url.indexOf("leetcode.com/problem") != -1){
-            changedUrl = "https://leetcode-cn.com/problems/"+problemName;
+            changedUrl = "https://leetcode.cn/problems/"+problemName;
         } else {
             changedUrl = "https://leetcode.com/problems/"+problemName;
         }
